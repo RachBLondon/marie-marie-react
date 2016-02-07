@@ -2,6 +2,22 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+
+
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Marie Marie
+    // bootstrap - latest version of CSS
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/navbar.css')
+    // jQuery
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    // react - latest version
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js')
+    // jsx transformer - needed for development mode
+    script(src='https://fb.me/JSXTransformer-0.13.3.js')
+
   body
+    include navbar.html
     block content

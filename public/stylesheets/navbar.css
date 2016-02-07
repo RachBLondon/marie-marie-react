@@ -1,0 +1,27 @@
+.navbar-default{
+  background-color: white;
+}
+.nav-container{
+  width: 100%;
+}
+.navbar-default img {
+  height: 15vh;
+  padding-left: 2em;
+}
+
+html body .container-fluid {
+  padding: 0px;
+}
+
+.nav-items{
+  margin: 0px;
+}
+
+.navbar-default .nav-items li {
+  display: inline;
+  font-size: 2rem;
+  padding-right: 2em;
+}
+.nav-right {
+  margin-left:  40vw;
+}
