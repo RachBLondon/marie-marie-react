@@ -1,4 +1,35 @@
+.collection-area{
+
+}
+
 .collection {
-  height: 200px;
-  border: red;
+  height: 60vh;
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+  color: black;
+}
+
+.collection::after{
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  margin: 10px;
+}
+
+#classic::after {
+  background-image: url('https://images.unsplash.com/photo-1441995355085-824a251a5996?crop=entropy&dpr=0.75&fit=crop&fm=jpg&h=925&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1575');
+}
+
+#causal::after {
+  background-image: url('https://images.unsplash.com/photo-1428931996691-a5108d4cdbf5?crop=entropy&dpr=0.75&fit=crop&fm=jpg&h=925&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1575');
+}
+
+#fashion::after{
+  background-image: url('https://images.unsplash.com/photo-1428930377079-45a584b6dd6b?crop=entropy&dpr=0.75&fit=crop&fm=jpg&h=925&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1575');
 }
