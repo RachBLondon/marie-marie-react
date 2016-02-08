@@ -1,0 +1,28 @@
+.index-page .container-fluid{
+  padding: 0px;
+  display: flex;
+}
+.index-page .splash {
+  height: 90vh;
+  background: url('../images/balloon.jpg') no-repeat bottom;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+.index-page h2 {
+  padding-top: 15%;
+  font-size: 5rem;
+  color: white;
+}
+
+.index-page h1 {
+  color: white;
+}
+
+.index-page button {
+
+}
