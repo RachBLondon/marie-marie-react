@@ -1,0 +1,52 @@
+.collection-area{
+
+}
+
+.collection {
+  height: 60vh;
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+  color: white;
+
+  z-index: 1;
+}
+
+.collection::after{
+  content: "";
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  margin: 10px;
+  opacity: 0.6;
+}
+
+#classic:hover + #classi::after {
+    opacity: 0.1;
+}
+
+.collection:hover{
+  color: black;
+}
+
+.collection h2 {
+  padding-top: 1.5em;
+  font-size: 5.6rem;
+  font-family: 'Nothing You Could Do', monospace;
+}
+
+#classic::after {
+  background-image: url('https://images.unsplash.com/photo-1441995355085-824a251a5996?crop=entropy&dpr=0.75&fit=crop&fm=jpg&h=925&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1575');
+}
+
+#causal::after {
+  background-image: url('https://images.unsplash.com/photo-1428931996691-a5108d4cdbf5?crop=entropy&dpr=0.75&fit=crop&fm=jpg&h=925&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1575');
+}
+
+#fashion::after{
+  background-image: url('https://images.unsplash.com/photo-1428930377079-45a584b6dd6b?crop=entropy&dpr=0.75&fit=crop&fm=jpg&h=925&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1575');
+}
