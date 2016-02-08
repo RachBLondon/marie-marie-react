@@ -6,8 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-// router.get('/collections', function(req, res, next){
-//   res.render('collections', {title: 'collections'});
-// });
+router.get('/collections', function(req, res, next){
+  res.render('collections', {title: 'collections'});
+});
 
 module.exports = router;
